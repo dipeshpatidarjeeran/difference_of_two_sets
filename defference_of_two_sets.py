@@ -4,3 +4,7 @@ print("set1 is :-",s1)
 print("set2 is:-",s2)
 print("difference of two sets:-",s1-s2)
 print("difference of two sets:-",s1.difference(s2))
+s3={8,5,9,7,5}
+s4={4,5,6,9,2}
+s3.difference_update(s4)
+print(s3)
